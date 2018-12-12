@@ -7,27 +7,47 @@
     <meta name="author" content="Artem Kuznetsov">
     <meta name="keywords" content="погода, погода на неделю, прогноз погоды">
     <meta name="description" content="Prognoz pogoda">
+    <link rel="stylesheet" href="styles/weather.css">
   </head>
   <body>
-  	<button><a href="weather-details.html">Сегодня</a></button>
-  	<button><a href="index.html">5 дней</a></button>
-  	<button><a href="historical-review.html">История погоды</a></button>
-  	<div>
-          Загрязнение воздуха: <span>8.16836352618588e-8</span>
-        </div>
-  			<input type="button">
-  			<input type="search" placeholder="Поиск">
+  <main class="main">
+  <header class="header">
+  <nav>
+  <ul class="nav header__nav">
+  <li class="nav-item"><a href="button1">Сегодня</a></li>
+  <li class="nav-item"><a href="button2">5 дней</a></li>
+  <li class="nav-item"><a href="button3">История погоды</a></li>
+  </ul>
+  </nav>
+  <div class="header__bottom">
+  <div>
+  Загрязнение воздуха: <span>8.16836352618588e-8</span>
+  </div>
+  <div class="search-form">
+  <input class="search-1" type="button">
+  <input class="search-2" type="search" placeholder="Поиск">
+</div>
+</div>
+</header>
+    <div class="container weader">
     <p>Ижевск, Россия</p>
     <p>среда</p>
     <p>облачно</p>
     <img src="image/assets_Today 1_2018-06-14/Sunny Weather.png" alt="Погода">
+  </div>
     <span>22&#176;C</span>
+    <header>
     <p>Вероятность осадков: 20%</p>
     <p>Влажность: 45%</p>
     <p>Ветер: 11км/ч</p>
-    <button><a href="1">Температура</a></button>
-  	<button><a href="2">Вероятность осадков</a></button>
-    <button><a href="3">Ветер</a></button>
+    </header>
+    <footer>
+    <ul class="nav header__nav">
+    <li class="nav-weather"><a href="1">Температура</a></li>
+    <li class="nav-weather"><a href="2">Вероятность <br> осадков</a></li>
+    <li class="nav-weather"><a href="3">Ветер</a></li>
+    </ul>
+    </footer>
     <div>
         <header>
           <span>17:00</span>
@@ -105,5 +125,6 @@
     <footer class="footer">
       <span>2018 &#169; Copyright</span>
     </footer>
+</main>
     </body>
 </html>
