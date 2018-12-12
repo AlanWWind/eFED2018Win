@@ -1,0 +1,77 @@
+.main {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 10px 20px;
+    border-bottom: 2px solid #bdbbbb;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+.header__nav {
+    background: #d8d8d8;
+    padding: 10px 0;
+    border-bottom: 2px solid #bdbbbb;
+}
+.nav-item {
+    margin-left: 25px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background: #ffffff;
+}
+.header__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 10px 20px;
+    border-bottom: 2px solid #bdbbbb;
+}
+.search-form {
+    display: flex;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: #e4e4e4;
+}
+.search1, .search2 {
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    background: transparent;
+}
+.search1 {
+    width: 30px;
+    background: url("../images/search.png") center no-repeat;
+    background-size: 80%;
+    cursor: pointer;
+}
+}
+.search2 {
+    width: 310px;
+    padding: 0 5px;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.weader {
+    margin: 50px 0;
+}
+.nav-weather {
+    margin-right: 25px;
+    height: 50px;
+    width: 120px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
